@@ -1,0 +1,50 @@
+.services-listing {
+    display: grid;
+    grid-template-columns: repeat(2, 150px); 
+    grid-gap: 200px; 
+    justify-content: end; 
+    font-style: italic;
+}
+
+.service {
+    background-color: #e3fae9;
+    padding: 0.5rem;
+    width: 150px; 
+}
+
+.service p {
+    margin: 0;
+}
+
+.houses {
+    grid-column: 1;
+    grid-row: 1;
+	width: 110px;
+}
+
+.remodeling {
+    grid-column: 2;
+    grid-row: 1;
+	width: 50px;
+}
+
+.consult {
+    grid-column: 1;
+    grid-row: 2;
+	width: 100px;
+}
+
+.interiors {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.landscaping {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.investment {
+    grid-column: 2;
+    grid-row: 3;
+}
